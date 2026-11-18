@@ -1,16 +1,56 @@
-# React + Vite
+# Task 7 – React useEffect API Integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project demonstrates API integration in React using the **useEffect** and **useState** hooks. It fetches user information from the JSONPlaceholder API and dynamically displays the retrieved data in a responsive User Directory Dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Fetch API
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## React Concepts Implemented
 
-## Expanding the Oxlint configuration
+- **useEffect:** Fetches API data when the component loads.
+- **useState:** Manages API response, loading state, and error state.
+- **Fetch API:** Retrieves user information from an external API.
+- **map():** Dynamically renders user details.
+- **Event Handling:** Implements the refresh button.
+- **Conditional Rendering:** Displays loading and error messages.
+- **Component-Based Architecture:** Organizes the application into reusable components.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## API Used
+
+JSONPlaceholder Users API:
+
+https://jsonplaceholder.typicode.com/users
+
+## Features
+
+- Fetches user data from an external API.
+- Displays User ID, Name, Username, Email, Phone, and Website.
+- Responsive user profile cards.
+- Loading message while fetching data.
+- Error handling with retry functionality.
+- Refresh button to reload user information.
+- Clean and attractive user interface.
+- Mobile, tablet, and desktop compatibility.
+
+
+## Learning Outcome
+
+Through this task, I gained practical experience in React API integration, handling asynchronous operations, managing component state, implementing useEffect, and dynamically rendering API data using the map() method.
+
+## Author
+
+**Pradeep Srinivasan**
+
+
+
+---
+
+*Task 7 – React JS Training Assignment*
